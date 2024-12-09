@@ -9,7 +9,7 @@ This project builds a Convolutional Neural Network (CNN) to classify handwritten
 - **Dataset**: MNIST dataset with 70,000 grayscale images of size 28x28 pixels.
 - **Preprocessing**:
   - Normalize pixel values to range [0, 1].
-  - One-hot encode labels for multi-class classification.
+  - Encode labels for multi-class classification using to_categorical function.
   - Split data into training and testing subsets.
 - **Model**:
   - CNN architecture with:
