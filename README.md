@@ -55,7 +55,7 @@ The MNIST dataset is automatically loaded using the keras.datasets module. It co
 
 - Training set: 60,000 images and labels.
 - Test set: 10,000 images and labels.
-- 
+
 Images are 28x28 grayscale, and labels represent digits from 0 to 9.
 
 ## Dependencies
