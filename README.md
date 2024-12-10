@@ -36,6 +36,40 @@ Ensure you have Python 3.7+ and install required packages:
 ```bash
 pip install -r requirements.txt
 ```
+
+## How to Run
+1. Open the notebook:
+``` bash
+jupyter notebook qa_rag_climate_fever.ipynb
+```
+or use google colab 
+
+2. Follow the steps in the notebook to:
+  - Load and preprocess the dataset.
+  - Build and train the CNN model.
+  - Evaluate the model's performance.
+  - Visualize prediction
+
+## Dataset
+The MNIST dataset is automatically loaded using the keras.datasets module. It contains:
+
+- Training set: 60,000 images and labels.
+- Test set: 10,000 images and labels.
+- 
+Images are 28x28 grayscale, and labels represent digits from 0 to 9.
+
+## Dependencies
+- numpy
+- matplotlib
+- tensorflow (Keras is included in TensorFlow)
+- scikit-learn
+- jupyter
+
+Install them using the requirements.txt file.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
 ## Acknowledgments
 - The MNIST dataset was provided by Yann LeCun, Corinna Cortes, and Christopher J.C. Burges.
 - This project uses the Keras and TensorFlow libraries for deep learning
